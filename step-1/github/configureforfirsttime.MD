@@ -46,7 +46,7 @@ Git checkout
 
 Git config —global user.name “username”
 
-Git config —global user.email
+Git config —global user.email "abcd@gmail.com"
 
 Git merge <branchname>
 
