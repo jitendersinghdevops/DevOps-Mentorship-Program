@@ -19,8 +19,7 @@ https://kbroman.org/github_tutorial/pages/first_time.html
 
 important commands to know/learn : https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
-
-- expected outcome:
+Expected Outcome:
 At last we should be able to answer:
 
 What does these commands do:
