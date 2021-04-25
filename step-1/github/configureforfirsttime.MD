@@ -22,25 +22,32 @@ important commands to know/learn : https://confluence.atlassian.com/bitbucketser
 
 expected outcome:
 At last we should be able to answer:
-What does these commands do: 
+
+What does these commands do:
+
 Git clone
+
 Git fetch origin
+
 Git init
+
 Git status
+
 Git add .
+
 Git commit -m “your message for making changes”
-Git push 
 
-
+Git push origin
 
 Git branch
+
 Git checkout -b
+
 Git checkout 
 
 Git config —global user.name “username”
 
 Git config —global user.email
-
 
 Git merge <branchname>
 
