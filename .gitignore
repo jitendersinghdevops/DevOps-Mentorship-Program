@@ -1,0 +1,6 @@
+
+*.tfstate
+*.info
+*.exe
+*.json
+*.backup
