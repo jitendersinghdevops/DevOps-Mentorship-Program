@@ -23,3 +23,7 @@ resource "random_string" "random-suffix" {
     special = false
     upper = false
 }
+
+variable "enable_https_traffic_only" {
+  default = false
+}
