@@ -16,14 +16,10 @@ variable "location" {
 }
 
 resource "random_string" "random-suffix" {
-    length = 4
-    lower = true
-    min_lower = 4
-    number = false
-    special = false
-    upper = false
-}
-
-variable "enable_https_traffic_only" {
-  default = false
+  length    = 4
+  lower     = true
+  min_lower = 4
+  number    = false
+  special   = false
+  upper     = false
 }
