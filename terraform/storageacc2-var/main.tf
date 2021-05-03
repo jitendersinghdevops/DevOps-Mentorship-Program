@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg1" {
-  name     = "local.azure_resource_name"
+  name     = local.azurerm_resource_name
   location = var.location
 }
 
