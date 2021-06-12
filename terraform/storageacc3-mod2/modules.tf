@@ -24,4 +24,3 @@ module "storage-account-2" {
   allow_blob_public_access = false
   account_tier             = "Standard"
 }
-
