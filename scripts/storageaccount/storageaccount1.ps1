@@ -19,7 +19,7 @@ $test_rg =  az group create `
          --name   nav1 | ConvertFrom-Json
 
 
-$test_sa = az storage account create --name  jitenderstorageajsfh --resource-group $test_rg.name 
+$test_sa = az storage account create --name  nav1 --resource-group $test_rg.name 
 
 $seeresourcegroupname = az group show --resource-group $test_rg.name
 
