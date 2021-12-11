@@ -1,6 +1,9 @@
-
 *.tfstate
 *.info
 *.exe
 *.json
 *.backup
+.terraform/
+.terraform.lock.hcl
+/debug.log
+*.result.json
