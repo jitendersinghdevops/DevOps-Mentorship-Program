@@ -7,9 +7,14 @@
    ./1storageaccount.ps1
 #>
 
-$test_rg = az group create --location eastus2 --name testregroup 
+# $test_rg = az group create --location eastus2 --name testregroup 
 
-$test_sa = az storage account create --name testsgfordevopstra --resource-group testregroup --https-only "true" 
+# $test_sa = az storage account create --name testsgfordevopstra --resource-group testregroup --https-only "true" 
+
+
+$test_rg = az group create --location eastus2 --name testregroup  | ConvertFrom-Json
+
+$test_sa = az storage account create --name testdsdfds --resource-group $test_rg.name --https-only "true" | ConvertFrom-Json
 
 
 # to delete a resource group 
