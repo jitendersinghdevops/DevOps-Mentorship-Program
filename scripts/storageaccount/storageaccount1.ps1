@@ -14,9 +14,7 @@
 
 # $test_sa = az storage account create --name testsgforfjbdskjfb --resource-group testregroup1313 --https-only "true" 
 
-$test_rg =  az group create `
-         --location eastus2 `
-         --name   nav1 | ConvertFrom-Json
+$test_rg =  az group create --location eastus2 --name   nav1 | ConvertFrom-Json
 
 
 $test_sa = az storage account create --name  nav1 --resource-group $test_rg.name 
