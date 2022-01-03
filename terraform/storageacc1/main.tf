@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "myfirstresourcegroupformysquad" {
 }
 
 resource "azurerm_storage_account" "test" {
-  name                     = "storageaccoun2fasdfasdf"
+  name                     = "stofasdfasdf"
   resource_group_name      = azurerm_resource_group.myfirstresourcegroupformysquad.name
   location                 = azurerm_resource_group.myfirstresourcegroupformysquad.location
   account_tier             = var.account_tier

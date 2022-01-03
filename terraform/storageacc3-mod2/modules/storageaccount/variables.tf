@@ -1,8 +1,8 @@
 variable "azure_resource_name" {
-    type = string
+  type = string
 }
 
-variable "resource_group_name"{
+variable "resource_group_name" {
   type = string
 }
 
@@ -12,6 +12,7 @@ variable "location" {
 
 variable "allow_blob_public_access" {
   default = true
+  type = bool
 }
 
 variable "account_tier" {
@@ -23,10 +24,10 @@ variable "account_replication_type" {
 }
 
 variable "tags" {
-  type = map
+  type = map(any)
 
   default = {
-    name = "superman"
+    name        = "superman"
     environment = "testing"
   }
 }
