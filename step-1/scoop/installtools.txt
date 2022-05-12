@@ -4,6 +4,10 @@
             2: only if it gives error : Set-ExecutionPolicy RemoteSigned -Scope CurrentUser   
 
         https://osdn.net/projects/sevenzip/releases#:~:text=3119275-,7z1900%2Dx64.msi,-1.67%20MB
+AND run:  
+scoop install git
+scoop bucket add main
+scoop install curl
 
 
 
