@@ -1,0 +1,42 @@
+1. Scoop - A command-line installer for Windows
+        in powershell terminal: 
+            1. iwr -useb get.scoop.sh | iex
+            2: only if it gives error : Set-ExecutionPolicy RemoteSigned -Scope CurrentUser   
+
+        https://osdn.net/projects/sevenzip/releases#:~:text=3119275-,7z1900%2Dx64.msi,-1.67%20MB
+
+
+
+2. Github desktop
+        https://desktop.github.com/ 
+
+
+3. Azure-CLI
+        in powershell terminal: scoop install azure-cli
+
+
+4. terraform
+        in powershell terminal: 
+            scoop install terraform
+
+
+5. kubectl 
+         in powershell terminal: 
+            scoop install kubectl
+
+
+6. Vs code editor
+        https://code.visualstudio.com/
+
+
+7. k9s
+         in powershell terminal: 
+            scoop install k9s
+
+
+8 .LENS
+        https://k8slens.dev/
+
+
+9. Git 
+        scoop install git
